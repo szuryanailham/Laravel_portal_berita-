@@ -33,11 +33,12 @@ class DatabaseSeeder extends Seeder
     ]);
     
     Post::factory(20)->create(); 
-        // User::create([
-        //     'name' => 'Ilham Suryana',
-        //     'email'=> 'ilham@gmail.com',
-        //     'password'=>bcrypt('12345')
-        // ]);
+        User::create([
+            'name' => 'Ilham Suryana',
+            'username' =>'szuryanailham',
+            'email'=> 'ilham@gmail.com',
+            'password'=>bcrypt('12345')
+        ]);
 
         // User::create([
         //     'name' => 'James Bone',

@@ -134,7 +134,7 @@
           <h5 class="offcanvas-title" id="sidebarMenuLabel">Company name</h5>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#sidebarMenu" aria-label="Close"></button>
         </div>
-       @include('dashboard.layouts.sidebar');
+       @include('dashboard.layouts.sidebar')
       </div>
     </div>
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
